@@ -13,7 +13,6 @@
     "stabilityDays": 3
   },
   "rangeStrategy": "bump",
-  "prCreation": "not-pending",
   "packageRules": [
     {
       "groupName": "definitelyTyped monorepo",
