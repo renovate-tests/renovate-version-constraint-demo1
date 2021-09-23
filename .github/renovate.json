@@ -19,7 +19,7 @@
       "matchPackagePatterns": ["^@types/"]
     },
     {
-      "matchPackageNames": ["node-fetch", "@​types/node-fetch"],
+      "matchPackageNames": ["node-fetch", "@types/node-fetch"],
       "allowedVersions": "^2.0.0"
     }
   ]
