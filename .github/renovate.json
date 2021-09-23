@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base",
+    ":disableDigestUpdates",
+    ":timezone(Europe/Amsterdam)"
+  ],
+  "ignorePresets": [":prHourlyLimit2"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["after 3pm and before 6pm"]
+  },
+  "major": {
+    "stabilityDays": 3
+  },
+  "rangeStrategy": "bump",
+  "prCreation": "not-pending"
+}
