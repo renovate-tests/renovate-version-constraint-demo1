@@ -1,0 +1,23 @@
+{
+  "name": "renovate-version-constraint-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceisele-r/renovate-version-constraint-demo1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceisele-r/renovate-version-constraint-demo1/issues"
+  },
+  "homepage": "https://github.com/ceisele-r/renovate-version-constraint-demo1#readme",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "node-fetch": "^2.6.5"
+  }
+}
