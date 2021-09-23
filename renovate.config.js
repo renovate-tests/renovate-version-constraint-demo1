@@ -14,14 +14,4 @@ module.exports = {
   rebaseWhen: "auto",
   prConcurrentLimit: 4,
   ignoreDeps: [],
-  packageRules: [
-    {
-      groupName: "definitelyTyped monorepo",
-      matchPackagePatterns: ["^@types/"],
-    },
-    {
-      matchPackageNames: ["node-fetch", "@​types/node-fetch"],
-      allowedVersions: "^2.0.0",
-    },
-  ],
 };

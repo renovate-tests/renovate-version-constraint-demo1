@@ -13,5 +13,15 @@
     "stabilityDays": 3
   },
   "rangeStrategy": "bump",
-  "prCreation": "not-pending"
+  "prCreation": "not-pending",
+  "packageRules": [
+    {
+      "groupName": "definitelyTyped monorepo",
+      "matchPackagePatterns": ["^@types/"]
+    },
+    {
+      "matchPackageNames": ["node-fetch", "@​types/node-fetch"],
+      "allowedVersions": "^2.0.0"
+    }
+  ]
 }
